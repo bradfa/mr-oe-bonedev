@@ -1,0 +1,36 @@
+# Repositories used for OE development to test various things targetting the
+# Circuit Co BlueSteel Basic and BeagleBone Black.
+
+[bonedev]
+checkout =
+	git clone 'https://github.com/bradfa/bonedev.git' 'bonedev' -o 'github-bradfa'
+	cd bonedev
+	git remote set-url --push github-bradfa git@github.com:bradfa/bonedev.git
+
+[linux]
+checkout =
+	git clone 'git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git' 'linux' -o 'kernel-torvalds'
+	cd linux
+	git remote add github-bradfa https://github.com/bradfa/linux.git
+	git remote set-url --push github-bradfa git@github.com:bradfa/linux.git
+
+[oe-core]
+checkout =
+	git clone 'git://git.openembedded.org/openembedded-core' 'oe-core' -o 'oe'
+	cd oe-core
+	git remote add github-bradfa https://github.com/bradfa/openembedded-core.git
+	git remote set-url --push github-bradfa git@github.com:bradfa/openembedded-core.git
+
+[oe-core/bitbake]
+checkout =
+	git clone 'git://git.openembedded.org/bitbake' 'bitbake' -o 'oe'
+	cd bitbake
+	git remote add github-bradfa https://github.com/bradfa/bitbake.git
+	git remote set-url --push github-bradfa git@github.com:bradfa/bitbake.git
+
+[u-boot]
+checkout =
+	git clone 'git://git.denx.de/u-boot.git' 'u-boot' -o 'denx'
+	cd u-boot
+	git remote add github-bradfa https://github.com/bradfa/u-boot.git
+	git remote set-url --push github-bradfa git@github.com:bradfa/u-boot.git

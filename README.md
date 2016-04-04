@@ -13,7 +13,7 @@ they can simply get up and running with the same sources as me very quickly.
 You will need the [myrepos](https://myrepos.branchable.com/) tool installed from
 your package manager along with all of the normal prerequisites listed in the
 [Yocto Project
-documentation](https://www.yoctoproject.org/docs/2.0/mega-manual/mega-manual.html#packages).
+documentation](https://www.yoctoproject.org/docs/latest/mega-manual/mega-manual.html#packages).
 
 ## Exact Steps
 

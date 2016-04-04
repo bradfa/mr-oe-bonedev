@@ -1,6 +1,7 @@
 bonedev/
 downloads/
 linux/
+meta-bradfa-bsp/
 oe-core/
 sstate-cache/
 u-boot/

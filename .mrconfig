@@ -14,6 +14,12 @@ checkout =
 	git remote add github-bradfa https://github.com/bradfa/linux.git
 	git remote set-url --push github-bradfa git@github.com:bradfa/linux.git
 
+[meta-bradfa-bsp]
+checkout =
+	git clone 'https://github.com/bradfa/meta-bradfa-bsp.git' 'meta-bradfa-bsp' -o 'github-bradfa'
+	cd meta-bradfa-bsp
+	git remote set-url --push github-bradfa git@github.com:bradfa/meta-bradfa-bsp.git
+
 [oe-core]
 checkout =
 	git clone 'git://git.openembedded.org/openembedded-core' 'oe-core' -o 'oe'

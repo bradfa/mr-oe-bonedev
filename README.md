@@ -17,14 +17,12 @@ documentation](https://www.yoctoproject.org/docs/latest/mega-manual/mega-manual.
 
 ## Exact Steps
 
-1. Clone this git repo to your machine
+1. Clone this git repo to your machine:
 `git clone https://github.com/bradfa/mr-oe-bonedev.git`
-2. List the path to the `.mrconfig` file within the `mr-oe-bonedev` git
-repository in your `~/.mrtrust` file.  If you cloned the `mr-oe-bonedev` git
-repository into your `~/git/` directory, you'd use a line like
-`~/git/mr-oe-bonedev/.mrconfig` to do this.
-3. Change into the `mr-oe-bonedev` directory and issue the `mr checkout`
-command.  This will proceed to checkout all the needed git repos and setup some
-basic remote repositories for you (which currently point to my own github
-repos).
-4. Do some work and read the `mr help` output.
+2. Change into the cloned repo: `cd mr-oe-bonedev`
+3. List the path to the `.mrconfig` file within the `mr-oe-bonedev` git
+repository in your `~/.mrtrust` file so that myrepos will trust this repo to
+execute: `echo $(pwd)/.mrconfig >> ~/.mrtrust`
+4. Checkout all the needed git repos and setup some basic remote repositories
+for you: `mr checkout`
+5. Do some work and read the `mr help` output.

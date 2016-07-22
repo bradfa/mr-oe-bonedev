@@ -26,10 +26,3 @@ checkout =
 	cd bitbake
 	git remote add github-bradfa https://github.com/bradfa/bitbake.git
 	git remote set-url --push github-bradfa git@github.com:bradfa/bitbake.git
-
-[u-boot]
-checkout =
-	git clone 'git://git.denx.de/u-boot.git' 'u-boot' -o 'denx'
-	cd u-boot
-	git remote add github-bradfa https://github.com/bradfa/u-boot.git
-	git remote set-url --push github-bradfa git@github.com:bradfa/u-boot.git

@@ -1,6 +1,15 @@
 # Repositories used for OE development to test various things targetting the
 # Circuit Co BlueSteel Basic and BeagleBone Black.
 
+# Teach mr some useful git tricks
+[DEFAULT]
+git_tag = git tag "$@"
+git_branch = git branch "$@"
+git_reset = git reset "$@"
+
+# Don't let 'mr commit' assume the '-a' switch or do a push
+git_commit = git commit "$@"
+
 [bonedev]
 checkout =
 	git clone 'https://github.com/bradfa/bonedev.git' 'bonedev' -o 'github-bradfa'

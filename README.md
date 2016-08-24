@@ -15,7 +15,7 @@ your package manager along with all of the normal prerequisites listed in the
 [Yocto Project
 documentation](https://www.yoctoproject.org/docs/latest/mega-manual/mega-manual.html#packages).
 
-## Exact Steps
+## Exact Steps for Getting Set Up
 
 1. Clone this git repo to your machine:
 `git clone https://github.com/bradfa/mr-oe-bonedev.git`
@@ -26,3 +26,7 @@ execute: `echo $(pwd)/.mrconfig >> ~/.mrtrust`
 4. Checkout all the needed git repos and setup some basic remote repositories
 for you: `mr checkout`
 5. Do some work and read the `mr help` output.
+
+## Exact Steps for Building a Linux Distribution
+
+1. 
